@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Rudy DAVID</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Rudy David" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Rudy DAVID</h1>
+
+          <p class="title">Ingénieur systèmes</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Mail</p>
+
+              <a href="mailto:rudy@galaxynetwork.fr" class="contact-link">rudy@galaxynetwork.fr</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Téléphone</p>
+
+              <a href="tel:+33778578148" class="contact-link">07 78 57 81 48</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Anniversaire</p>
+
+              <time datetime="1982-06-23">17 Août 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localisation</p>
+
+              <address>Le Mans, Sarthe, France</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/rudy-david-495754224/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/PetitPrinceQLF" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/rudydavid01/" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link="about">A propos</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link ="resume">CV</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link ="portfolio">Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="blog">Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="contact">Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">A propos de moi</h2>
+        </header>
+
+        <section class="about-text">
+
+          <section>
+            <br><br>
+            <h2>Bonjour, moi c’est Rudy David 🌟</h2>
+            <br>
+            <p>🗓️ <strong>Âge</strong> : 23 ans</p>
+            <p>🏡 <strong>Lieu</strong> : Le Mans, France</p>
+            <p>🌍 <strong>Nationalité</strong> : Française 🥖</p>
+            <p>☀️ <strong>Né en août</strong></p>
+          </section>
+
+          <br><br>
+
+          <section>
+            <h2>🔧 Ingénieur système en formation 🎓</h2>
+            <p>
+              Actuellement étudiant en ingénierie système au <a href="https://www.cesi.fr/" class="inline-link" target="_blank">CESI</a> au Mans, je travaille également chez <a href="https://www.dri.fr/" class="inline-link" target="_blank">DRI</a> 🍃 en tant qu’administrateur système.
+            </p>
+            <p> 
+              Vous pouvez en savoir plus sur mon parcours en consultant ma page CV.
+            </p>
+          </section>
+
+          <br><br>
+
+          <section>
+            <h2>🖥️ Un passionné de technologie</h2>
+            <p>
+              Je suis tombé dans l’informatique quand j’étais petit. Aujourd’hui, c’est aussi mon métier 🎓.
+            </p>
+            <p>
+              J’ai une véritable passion pour la mise en place de services et d’infrastructures informatiques (open source), ainsi que pour leur gestion et maintenance.
+            </p>
+            <p>
+              Rien ne me motive plus que de transformer des idées en solutions concrètes et fonctionnelles, que ce soit pour optimiser les systèmes existants ou bâtir des plateformes solides et performantes.
+            </p> 
+            <p>
+              Toujours à la recherche de nouvelles compétences et de projets cool sur lesquels travailler !
+            </p>
+          </section>
+
+          <br><br>
+
+          <section>
+            <h2>💪 Sport et dépassement de soi</h2>
+            <p>
+              En dehors des claviers et des écrans, je pratique la <a href="https://fr.wikipedia.org/wiki/Force_athl%C3%A9tique#:~:text=La%20force%20athl%C3%A9tique%20%28en%20anglais%20%3A%20powerlifting%29%20est,plus%20lourdes%20et%20o%C3%B9%20l%27amplitude%20est%20plus%20r%C3%A9duite." class="inline-link" target="_blank">force athlétique</a> 🏋️‍♂️ depuis plus d’un an maintenant.
+              Ce sport m’aide à repousser mes limites et à maintenir un équilibre entre le corps et l’esprit.
+            </p>
+            <p>
+              Cela me permet de devenir la meilleure version de moi-même jour après jour, avec des objectifs de compétition futurs.
+            </p>
+            <p>
+              (D’ailleurs, vous pouvez me suivre sur <a href="https://www.instagram.com" class="inline-link" target="_blank">Instagram</a> pour voir mes progrès 👀 !)
+            </p>
+          </section>
+
+          <br><br>
+
+          <section>
+            <h2>🌍 Ma communauté Discord</h2>
+            <p>
+              J’ai monté ma propre petite communauté Discord où je partage des projets, des commits... Vous y trouverez aussi des serveurs de jeux que je gère et développe.
+            </p>
+            <p>
+              Venez nous rejoindre si ça vous dit : <a href="https://discord.gg/6ffyCYq3Ea" class="inline-link" target="_blank">Serveur Discord</a>.
+            </p>
+          </section>
+
+          <br><br>
+
+          <section>
+            <h2>📬 Contact</h2>
+            <p>
+              Vous avez une idée, un projet ou juste envie de discuter ? 
+            <p>
+            </p>
+              N’hésitez pas à explorer mes projets ou à <a href="mailto:rudy@galaxynetwork.fr" class="inline-link" target="_blank">me contacter</a>, je suis toujours partant pour apprendre et partager ! ✌️
+            </p>
+          </section>
+        </section>
+
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">CV</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Formation</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Manager en Infrastructures et Cybersécurité des SI en alternance</h4>
+
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                <ion-icon name="person" class="icon-resume"></ion-icon> Profil : Étudiant en alternance
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="document" class="icon-resume"></ion-icon> Programme : Master Professionnels (bac+5)
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="star" class="icon-resume"></ion-icon> Niveau : BAC +5
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="time" class="icon-resume"></ion-icon> Durée : 2 ans
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="pin" class="icon-resume"></ion-icon> Ecole : Campus CESI Le Mans
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Administrateur Systèmes et Réseaux en alternance</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                <ion-icon name="person" class="icon-resume"></ion-icon> Profil : Étudiant en alternance
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="document" class="icon-resume"></ion-icon> Programme : Bachelor (bac+3)
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="star" class="icon-resume"></ion-icon> Niveau : BAC +3
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="time" class="icon-resume"></ion-icon> Durée : 1 an
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="pin" class="icon-resume"></ion-icon> Ecole : Campus CESI Le Mans
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Services Informatiques aux Organisations</h4>
+
+              <span>2020 — 2022</span>
+
+              <p class="timeline-text">
+                <ion-icon name="person" class="icon-resume"></ion-icon> Profil : Étudiant
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="document" class="icon-resume"></ion-icon> Programme : BTS SIO (option : SISR)
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="star" class="icon-resume"></ion-icon> Niveau : BAC +2
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="time" class="icon-resume"></ion-icon> Durée : 2 ans
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="pin" class="icon-resume"></ion-icon> Ecole : Campus Saint charles sainte croix Le Mans
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Métiers de l’ÉLectricité et de ses Environnements Connectés</h4>
+
+              <span>2017 — 2020</span>
+
+              <p class="timeline-text">
+                <ion-icon name="person" class="icon-resume"></ion-icon> Profil : Étudiant
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="document" class="icon-resume"></ion-icon> Programme : BAC PRO MELEC (option : SN)
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="star" class="icon-resume"></ion-icon> Niveau : BAC
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="time" class="icon-resume"></ion-icon> Durée : 3 ans
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="pin" class="icon-resume"></ion-icon> Ecole : Lycée Raoul Vadepied Evron
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Expérience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DRI</h4>
+
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                <ion-icon name="briefcase" class="icon-resume"></ion-icon> Poste : Alternant administrateur systèmes
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="extension-puzzle" class="icon-resume"></ion-icon> Missions
+              </p>
+              <p class="timeline-text tabulation">
+                - Déploiement d’infrastructures redondantes et hautement disponibles multi-sites (PRA et PCA).
+              </p>
+              <br>
+              <p class="timeline-text tabulation">
+                - Amélioration des outils, des processus internes et optimisation des coûts (supervision, alerting).
+              </p>
+              <br>
+              <p class="timeline-text tabulation">
+                - Référent technique et chef de projet : NETPRESTATION, KOGOIA ...
+              </p>
+              <br>
+              <p class="timeline-text tabulation">
+                - Développement et gestion d’infrastructures automatisées via GitLab en utilisant des outils de gestion de configuration (Puppet | Ansible).
+              </p>
+              <br>
+              <p class="timeline-text tabulation">
+                - Support : assistance technique auprès des clients, en résolvant les incidents N1.
+              </p>
+              <br>
+              <p class="timeline-text tabulation">
+                - Exploitation : Anticipe et résout les problèmes techniques d'exploitation en apportant des solutions efficaces
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">FPEE</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                <ion-icon name="briefcase" class="icon-resume"></ion-icon> Poste : Alternant support informatique
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="extension-puzzle" class="icon-resume"></ion-icon> Missions
+              </p>
+              <p class="timeline-text tabulation">
+                - Répondre aux demandes des utilisateurs via téléphone, e-mail, chat ou ticket.
+              </p>
+              <br>
+              <p class="timeline-text tabulation">
+                - Diagnostiquer et résoudre les problèmes techniques liés aux logiciels, matériels, ou réseaux.
+              </p>
+              <br>
+              <p class="timeline-text tabulation">
+                - Accompagner les utilisateurs dans l'installation et la configuration de nouveaux équipements (ordinateurs, imprimantes, téléphones).
+              </p>
+              <br>
+              <p class="timeline-text tabulation">
+                - Identifier, analyser et résoudre les incidents techniques dans les délais impartis.
+              </p>
+              <br>
+              <p class="timeline-text tabulation">
+                - Créer et gérer les comptes utilisateurs (e-mails, Active Directory, logiciels internes).
+              </p>
+              <br>
+              <p class="timeline-text tabulation">
+                - Configurer et appliquer les droits d'accès selon les politiques de l'entreprise.
+              </p>
+              <p class="timeline-text tabulation">
+                - Aider à la connexion aux réseaux internes et à distance (VPN, Wi-Fi, Ethernet).
+              </p>
+              <p class="timeline-text tabulation">
+                - Suivre l’inventaire du matériel informatique (PC, téléphones, imprimantes, etc.).
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Stage Sarrel</h4>
+
+              <span>2020 — 2021 et 2021 - 2022</span>
+
+              <p class="timeline-text">
+                <ion-icon name="briefcase" class="icon-resume"></ion-icon> Poste : Stagiaire support informatique
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="extension-puzzle" class="icon-resume"></ion-icon> Missions
+              </p>
+              <p class="timeline-text tabulation">
+                - Assistance et réparation informatique bas niveau (laptop, desktop, smartphone, imprimante, etc..)
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Mes compétences technique</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Systèmes d’exploitation Linux (Debian | CentOS | Ubuntu)</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Systèmes d’exploitation Windows</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Sauvegarde (Bareos | PBS | VEEAM)</h5>
+                <data value="35">35%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 35%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Supervision (Nagios | 24x7 | Zabbix | Uptime-Kuma)</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Virtualisation (vSphere | Proxmox | Vmware ESXi | VirtualBox)</h5>
+                <data value="45">45%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 45%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Conteneurisation (Docker)</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Pare-feu (OPNsense | PFsense | IPTABLES)</h5>
+                <data value="25">25%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 25%;"></div>
+              </div>
+
+            </li>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web | reverse proxy | proxy (Apache | Nginx | HaProxy | Varnish | Squid | NPM)</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Journalisation (Graylog | Rsyslog | Rotatelog)</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Base de données relationnelles (MariaDB/MySQL | PostgreSQL | SQlite)</h5>
+                <data value="55">55%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 55%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Infrastucture as code | Provisionning (Gitlab | Ansible | Puppet)</h5>
+                <data value="20">20%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 20%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Contact avec les utilisateurs/clients</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn="all">Tous</button>
+            </li>
+
+            <li class="filter-item">
+               <button data-filter-btn="applications">Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn="website">Site web</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn="games">Jeux</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Sélectionner une catégorie</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item="all">Tous</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item="applications">Développement web</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item="website">Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item="games">Serveur de jeux</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="website">
+              <a href="https://github.com/PetitPrinceQLF/WEB-Portfolio-LinuxConsole" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Porfolio console linux</h3>
+
+                <p class="project-category">Site Web</p>
+
+              </a>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/PetitPrinceQLF/DOCKER-Stack-Netflix" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="DOCKER-Stack-Netflix" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Docker Stack Netflix</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="games">
+              <a href="https://mc.galaxynetwork.fr/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="MC-NewHorizon-Server" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Serveur Minecraft</h3>
+
+                <p class="project-category">Jeux</p>
+
+              </a>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Test</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">19 décembre 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Test h3</h3>
+
+                  <p class="blog-text">
+                    testttttttttttttttt.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10677.790434719!2d0.20235267873360763!3d48.00506157915006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1734623286043!5m2!1sfr!2sfr"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Formulaire de contact</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nom complet" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Adresse email" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Votre message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Envoyer un message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
