@@ -41,6 +41,10 @@ git clone https://github.com/PetitPrinceQLF/WEB-Portfolio-Personal.git
 
 ---
 
+## Credit
+
+Special thanks to [codewithsadee](https://github.com/codewithsadee) for creating the original [vCard Personal Portfolio](https://github.com/codewithsadee/vcard-personal-portfolio).
+
 ## Contact
 
 If you want to contact me you can reach me at rudy@galaxynetwork.fr.
