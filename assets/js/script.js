@@ -113,3 +113,12 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
   });
 }
+
+
+function envoieMail() {
+   const emailInput = document.getElementById("email");
+   const emailValue = emailInput.value;
+   alert( emailValue);
+
+  //TODO rajouter la methode d'appel a la librairie EmailJsa avec en paramètre emailValue
+}
